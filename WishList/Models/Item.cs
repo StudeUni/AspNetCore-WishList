@@ -11,7 +11,5 @@ namespace WishList.Models
         public int Id { get; set; }
         [Required, MaxLength(50)]
         public string Description { get; set; }
-
-        public List<Item> Items { get; set; }
     }
 }
